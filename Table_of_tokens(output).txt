@@ -1,0 +1,974 @@
+*******Table of Tokens********
+___________________________________________
+___________________________________________
+Token Type         ||       Lexeme
+___________________________________________
+___________________________________________
+Pre-Processor->          #include<stdio.h>
+
+Pre-Processor->          #include<stdlib.h>
+
+Pre-Processor->          #include<stdbool.h>
+
+Pre-Processor->          #include<string.h>
+
+Keyword->                extern
+
+Keyword->                int
+
+Identifier->             ext_variable
+
+Delimeter->              ;
+
+Keyword->                struct
+
+Identifier->             pair
+
+Delimeter->              {
+
+Keyword->                int
+
+Identifier->             first
+
+Delimeter->              ;
+
+Keyword->                int
+
+Identifier->             second
+
+Delimeter->              ;
+
+Delimeter->              }
+
+Delimeter->              ;
+
+Keyword->                typedef
+
+Keyword->                struct
+
+Identifier->             pair
+
+Identifier->             pair
+
+Delimeter->              ;
+
+Identifier->             enum
+
+Identifier->             week
+
+Delimeter->              {
+
+Identifier->             Mon
+
+Delimeter->              ,
+
+Identifier->             Tue
+
+Delimeter->              ,
+
+Identifier->             Wed
+
+Delimeter->              ,
+
+Identifier->             Thur
+
+Delimeter->              ,
+
+Identifier->             Fri
+
+Delimeter->              ,
+
+Identifier->             Sat
+
+Delimeter->              ,
+
+Identifier->             Sun
+
+Delimeter->              }
+
+Delimeter->              ;
+
+Keyword->                void
+
+Function->               dif(
+
+Keyword->                int
+
+Identifier->             a
+
+Delimeter->              ,
+
+Keyword->                int
+
+Identifier->             b
+
+Delimeter->              )
+
+Delimeter->              {
+
+Keyword->                int
+
+Identifier->             c
+
+Assignment Operator->    =
+
+Delimeter->              (
+
+Identifier->             a
+
+Relational-operator->    >
+
+Identifier->             b
+
+Delimeter->              )
+
+Identifier->             a
+
+Arithmetic Operator->    -
+
+Identifier->             b
+
+Identifier->             b
+
+Arithmetic Operator->    -
+
+Identifier->             a
+
+Delimeter->              ;
+
+Function->               printf(
+
+String->                 "Differance is :%d\n"
+
+Delimeter->              ,
+
+Identifier->             c
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Delimeter->              }
+
+Keyword->                int
+
+Function->               main(
+
+Delimeter->              )
+
+Delimeter->              {
+
+Function->               if(
+
+Constant->               1
+
+Logical Operator->       &&
+
+Constant->               2
+
+Logical Operator->       ||
+
+Constant->               2
+
+Logical Operator->       &&
+
+Delimeter->              (
+
+Logical Operator->       !
+
+Constant->               4
+
+Delimeter->              )
+
+Delimeter->              )
+
+Delimeter->              {
+
+Function->               printf(
+
+String->                 "Welcome to this program :) \n"
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Delimeter->              }
+
+Keyword->                char
+
+Identifier->             str
+
+Delimeter->              [
+
+Constant->               100
+
+Delimeter->              ]
+
+Delimeter->              ;
+
+Function->               memset(
+
+Identifier->             str
+
+Delimeter->              ,
+
+Delimeter->              '
+
+Constant->               0
+
+Delimeter->              '
+
+Delimeter->              ,
+
+Function->               sizeof(
+
+Identifier->             str
+
+Delimeter->              )
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Function->               printf(
+
+String->                 "Enter your name : "
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Function->               scanf(
+
+String->                 "%s"
+
+Delimeter->              ,
+
+Identifier->             str
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Function->               printf(
+
+String->                 "Welcome %s!\n"
+
+Delimeter->              ,
+
+Identifier->             str
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Keyword->                static
+
+Keyword->                int
+
+Identifier->             jfj
+
+Assignment Operator->    =
+
+Constant->               2
+
+Delimeter->              ;
+
+Identifier->             auto
+
+Keyword->                float
+
+Identifier->             p
+
+Assignment Operator->    =
+
+Fractional Constant->    5.332
+
+Delimeter->              ;
+
+Keyword->                float
+
+Identifier->             j
+
+Assignment Operator->    =
+
+Fractional Constant->    1.2
+
+Delimeter->              ;
+
+Keyword->                double
+
+Identifier->             k
+
+Assignment Operator->    =
+
+Fractional Constant->    3.1416
+
+Delimeter->              ;
+
+Keyword->                int
+
+Identifier->             a
+
+Delimeter->              ;
+
+Keyword->                long
+
+Keyword->                long
+
+Identifier->             mah
+
+Assignment Operator->    =
+
+Constant->               4859385
+
+Delimeter->              ;
+
+Keyword->                unsigned
+
+Identifier->             boy
+
+Assignment Operator->    =
+
+Constant->               449349
+
+Delimeter->              ;
+
+Keyword->                short
+
+Identifier->             jgfg
+
+Assignment Operator->    =
+
+Constant->               8
+
+Delimeter->              ;
+
+Keyword->                int
+
+Identifier->             age
+
+Delimeter->              ;
+
+Function->               printf(
+
+String->                 "Enter age : \n"
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Function->               scanf(
+
+String->                 "%d"
+
+Delimeter->              ,
+
+Special Charecter->      &
+
+Identifier->             age
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Function->               for(
+
+Keyword->                int
+
+Identifier->             i
+
+Assignment Operator->    =
+
+Identifier->             age
+
+Delimeter->              ;
+
+Delimeter->              ;
+
+Identifier->             i
+
+Arithmetic Operator->    -
+
+Arithmetic Operator->    -
+
+Delimeter->              )
+
+Delimeter->              {
+
+Identifier->             g
+
+Identifier->             age
+
+Arithmetic Operator->    -
+
+Arithmetic Operator->    -
+
+Delimeter->              ;
+
+Identifier->             s
+
+Keyword->                break
+
+Delimeter->              ;
+
+Function->               if(
+
+Identifier->             age
+
+Relational-operator->    >
+
+Constant->               0
+
+Delimeter->              )
+
+Keyword->                goto
+
+Identifier->             g
+
+Delimeter->              ;
+
+Single-Line Comment->    //goto label g
+
+Keyword->                else
+
+Keyword->                goto
+
+Identifier->             s
+
+Delimeter->              ;
+
+Single-Line Comment->    //goto label s
+
+Delimeter->              }
+
+Identifier->             const
+
+Keyword->                double
+
+Identifier->             pi
+
+Assignment Operator->    =
+
+Fractional Constant->    3.1416
+
+Delimeter->              ;
+
+Function->               for(
+
+Keyword->                int
+
+Identifier->             i
+
+Assignment Operator->    =
+
+Constant->               1
+
+Delimeter->              ;
+
+Identifier->             i
+
+Relational-operator->    <
+
+Constant->               3
+
+Delimeter->              ;
+
+Identifier->             i
+
+Relational-operator->    ++
+
+Delimeter->              )
+
+Delimeter->              {
+
+Function->               for(
+
+Keyword->                int
+
+Identifier->             j
+
+Assignment Operator->    =
+
+Constant->               0
+
+Delimeter->              ;
+
+Identifier->             j
+
+Relational-operator->    <
+
+Constant->               2
+
+Delimeter->              ;
+
+Identifier->             j
+
+Relational-operator->    ++
+
+Delimeter->              )
+
+Delimeter->              {
+
+Function->               if(
+
+Identifier->             i
+
+Relational-operator->    ==
+
+Constant->               3
+
+Delimeter->              )
+
+Keyword->                break
+
+Delimeter->              ;
+
+Function->               if(
+
+Identifier->             i
+
+Relational-operator->    ==
+
+Identifier->             j
+
+Delimeter->              )
+
+Keyword->                continue
+
+Delimeter->              ;
+
+Keyword->                else
+
+Delimeter->              {
+
+Function->               printf(
+
+String->                 "Bingo\n"
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Delimeter->              }
+
+Delimeter->              }
+
+Delimeter->              }
+
+Keyword->                register
+
+Keyword->                int
+
+Identifier->             djdhjd
+
+Assignment Operator->    =
+
+Constant->               8
+
+Delimeter->              ;
+
+Keyword->                do
+
+Delimeter->              {
+
+Function->               printf(
+
+String->                 "."
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Identifier->             djdhjd
+
+Arithmetic Operator->    -
+
+Arithmetic Operator->    -
+
+Delimeter->              ;
+
+Delimeter->              }
+
+Function->               while(
+
+Identifier->             djdhjd
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Function->               printf(
+
+String->                 "\n"
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Keyword->                int
+
+Identifier->             ha
+
+Delimeter->              ,
+
+Identifier->             ma
+
+Delimeter->              ;
+
+Function->               printf(
+
+String->                 "Enter 2 number to find their differance : "
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Function->               scanf(
+
+String->                 "%d %d"
+
+Delimeter->              ,
+
+Special Charecter->      &
+
+Identifier->             ha
+
+Delimeter->              ,
+
+Special Charecter->      &
+
+Identifier->             ma
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Function->               dif(
+
+Identifier->             ha
+
+Delimeter->              ,
+
+Identifier->             ma
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Function->               printf(
+
+String->                 "Did you know? size of int is %lu bytes"
+
+Delimeter->              ,
+
+Function->               sizeof(
+
+Keyword->                int
+
+Delimeter->              )
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Function->               printf(
+
+String->                 "\nEnter a 1 to tryout my custom made data type 'pair'.\n"
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Function->               printf(
+
+String->                 "Its a data type which I made using struct keyword.\n"
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Function->               printf(
+
+String->                 "If you dont want to try it,enter any other number.\n"
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Function->               scanf(
+
+String->                 "%d"
+
+Delimeter->              ,
+
+Special Charecter->      &
+
+Identifier->             a
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Function->               switch(
+
+Identifier->             a
+
+Delimeter->              )
+
+Delimeter->              {
+
+Keyword->                case
+
+Constant->               1
+
+Identifier->             pair
+
+Identifier->             p
+
+Delimeter->              ;
+
+Function->               printf(
+
+String->                 "Enter pair values,separated by space: "
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Function->               scanf(
+
+String->                 "%d %d"
+
+Delimeter->              ,
+
+Special Charecter->      &
+
+Identifier->             p
+
+Delimeter->              .
+
+Identifier->             first
+
+Delimeter->              ,
+
+Special Charecter->      &
+
+Identifier->             p
+
+Delimeter->              .
+
+Identifier->             second
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Function->               printf(
+
+String->                 "The pair values you entered is (%d,%d).\n"
+
+Delimeter->              ,
+
+Identifier->             p
+
+Delimeter->              .
+
+Identifier->             first
+
+Delimeter->              ,
+
+Identifier->             p
+
+Delimeter->              .
+
+Identifier->             second
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Function->               printf(
+
+String->                 "Would you like to findout if the sum of your pair value is even or odd?\n"
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Function->               printf(
+
+String->                 "Enter '1' if you want to try it out.\n"
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Keyword->                int
+
+Identifier->             c
+
+Delimeter->              ;
+
+Function->               scanf(
+
+String->                 "%d"
+
+Delimeter->              ,
+
+Special Charecter->      &
+
+Identifier->             c
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Function->               if(
+
+Identifier->             c
+
+Delimeter->              )
+
+Delimeter->              {
+
+Keyword->                int
+
+Identifier->             sum
+
+Assignment Operator->    =
+
+Identifier->             p
+
+Delimeter->              .
+
+Identifier->             first
+
+Arithmetic Operator->    +
+
+Identifier->             p
+
+Delimeter->              .
+
+Identifier->             second
+
+Delimeter->              ;
+
+Function->               printf(
+
+String->                 "Sum of pair is = %d\n"
+
+Delimeter->              ,
+
+Identifier->             sum
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Delimeter->              (
+
+Identifier->             sum
+
+Special Charecter->      %
+
+Constant->               2
+
+Relational-operator->    ==
+
+Constant->               0
+
+Delimeter->              )
+
+Function->               printf(
+
+String->                 "%d is even\n"
+
+Delimeter->              ,
+
+Identifier->             sum
+
+Delimeter->              )
+
+Function->               printf(
+
+String->                 "%d is odd\n"
+
+Delimeter->              ,
+
+Identifier->             sum
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Delimeter->              }
+
+Keyword->                else
+
+Delimeter->              {
+
+Function->               printf(
+
+String->                 "Thats the end of this program.\nBye :)"
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Delimeter->              }
+
+Keyword->                break
+
+Delimeter->              ;
+
+Identifier->             default
+
+Function->               printf(
+
+String->                 "Looks like you didn't entered '1' as input\n"
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Function->               printf(
+
+String->                 "I am assuming that you dont want to try my datatype."
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Function->               printf(
+
+String->                 "Thats all right."
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Function->               printf(
+
+String->                 "Best of luck!   :')\nHave a great day.\n"
+
+Delimeter->              )
+
+Delimeter->              ;
+
+Delimeter->              }
+
+Keyword->                return
+
+Constant->               0
+
+Delimeter->              ;
+
+Delimeter->              }
+
+
+
+
+
+
+ Total Tokens = 481
